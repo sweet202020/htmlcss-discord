@@ -1,0 +1,191 @@
+
+/* #region common*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* #endregion common*/
+/* #region background*/
+
+.background{
+    background-image: url("./img/jumbo.png");
+    height: 570px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+header{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+.container{
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+}
+.logo{
+    padding-top: 0.5rem;
+}
+a{
+    padding-left: 1.3rem;
+    text-decoration: none;
+    color: white;
+}
+/* #endregion background*/
+/* #region column*/
+.col_1{
+    width: calc((100% / 12)*1);
+}
+.col_2{
+    width: calc((100% / 12)*2);
+}
+.col_3{
+    width: calc((100% / 12)*3);
+    align-self: center;
+}
+.col_4{
+    width: calc((100% / 12)*4);
+    
+}
+.col_6{
+    width: calc((100% / 12)*6);
+    align-self: center;
+    text-align: center;
+}
+.col_8{
+    width: calc((100% / 12)*8);
+}
+/* #endregion column*/
+/* #region main*/
+
+.for_mac{
+    font-size: 1.2rem;
+}
+button{ 
+    border: none;
+    border-radius: 2rem;
+    
+}
+.accedi{
+    background-color: white;
+    padding: 0.5rem;
+    margin-left: 12rem;
+    margin-top: 0.5rem;
+}
+.jus{
+    display: flex;
+    justify-content: center;
+}
+.download, .club{
+    color: white;
+    text-align: center;
+}
+
+.mac, .broswer{
+    padding: 1rem;
+    margin-top: 2rem;    
+}
+.broswer{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 2rem;
+}
+
+.place{
+    font-size: 40px;
+    margin-top: 3rem;
+}
+.server{
+    font-size: 18px;
+    margin-top: 2rem;
+}
+
+.space, .easy, .fandom{
+    margin-top: 1rem;
+}
+.easy, .tecnology{
+    background-color: #F6F6F6;
+}
+.adventure{
+    font-size: 28px;
+    text-align: center;
+    font-weight: bolder;
+    background-image: url("./img/stars.svg");
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.for_mac, .freccia{
+    font-weight: 900;
+}
+.pad{
+    margin: 5rem;
+}
+/* #endregion main*/
+/* #region footer*/
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #7289D9;
+    margin-top: 3rem;   
+}
+.final{
+    align-self: center;
+}
+.freccia{
+    padding-right: 1rem;
+    font-size: 1.8rem;   
+}
+.scarica{
+    background-color:#7289DA;
+    color: white;
+    font-size: 25px;
+    padding: 1rem;
+    text-align: center;
+}
+h3{
+    color:  #7289D9;
+    font-size: 35px;
+    margin-top: 3rem;
+    padding-bottom: 1rem;
+}
+.flag{
+    width: 30px;
+}
+.italy{
+    vertical-align: top;
+    color: white;
+}
+h4{
+    color:  #7289D9;
+    margin-top: 3rem;
+}
+.coda{
+    color: white;
+    padding: 2rem 0;
+}
+footer{
+    background-color: #23272A;
+    height: 500px;
+}
+.register{
+    color: white;
+    background-color: #7289D9;
+    padding: 1rem;
+}
+
+i{
+    color: white;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+/* #endregion footer*/
