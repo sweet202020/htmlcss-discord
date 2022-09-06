@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background{
+    background-image: url("./img/jumbo.png");
+    height: 570px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+header{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+.container{
+    width: 60%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    justify-content: flex-end;
+}
+.logo{
+    padding-top: 0.5rem;
+}
+a{
+    padding-left: 1.3rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color: black;
+}
+/* #region col */
+.col_1{
+    width: calc((100% / 12)*1);
+}
+.col_2{
+    width: calc((100% / 12)*2);
+}
+.col_3{
+    width: calc((100% / 12)*3);
+   
+}
+.col_4{
+    width: calc((100% / 12)*4);
+    align-self: center;
+    text-align: center;
+}
+.col_6{
+    width: calc((100% / 12)*6);
+    align-self: center;
+    text-align: center;
+}
+.col_8{
+    width: calc((100% / 12)*8);
+    align-self: center;
+    
+}
+/* #endregion col */
+
+.accedi{
+    border: none;
+    border-radius: 2rem;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    margin-left: 5rem;
+    margin-top: 0.5rem;
+}
+button:hover{
+    color: blue;
+    box-shadow: 0 0 10px black;
+}
+.discord{
+    margin-top: 5rem;
+}
+h1{
+    color: white;
+    font-size: 5rem;
+}
+.server{
+    font-size: 1.3rem;
+    padding-top: 1rem;
+}
+.year, .month{
+    border: none;
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    background-color: black;
+    color: #7289DA;
+    font-size: 1.4rem;
+    margin-top: 2rem;
+}
