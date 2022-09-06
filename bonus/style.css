@@ -38,6 +38,12 @@ a{
     text-decoration: none;
     color: white;
 }
+a:hover{
+    color: darkred;
+}
+a:active{
+    color: black;
+}
 /* #endregion background*/
 /* #region column*/
 .col_1{
@@ -70,8 +76,10 @@ a{
 }
 button{ 
     border: none;
-    border-radius: 2rem;
-    
+    border-radius: 2rem;    
+}
+button:hover{
+    color: blue;
 }
 .accedi{
     background-color: white;
@@ -119,7 +127,7 @@ button{
 }
 .wave_up{
     background-image: url(./img/wave_up.svg);
-    height: 50px;
+    height: 70px;
 }
 .wave_down{
     background-image: url(./img/wave_down.svg);
@@ -184,6 +192,7 @@ h4{
     color: white;
     padding: 2rem 0;
 }
+
 footer{
     background-color: #23272A;
     height: 500px;
@@ -198,5 +207,18 @@ i{
     color: white;
     padding-right: 1rem;
     padding-top: 1rem;
+}
+.fa-twitter:hover{
+    color:  #00ACED;
+}
+.fa-instagram:hover{
+    color: #FF0068;
+}
+.fa-facebook:hover{
+    color: #1E4799;
+
+}
+.fa-youtube:hover{
+    color: red;
 }
 /* #endregion footer*/
