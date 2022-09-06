@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* #region background */
 .background{
     background-image: url("./img/jumbo.png");
     height: 570px;
@@ -21,7 +22,9 @@ header{
 }
 .row{
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
+    
 }
 .logo{
     padding-top: 0.5rem;
@@ -38,6 +41,7 @@ a:hover{
 a:active{
     color: black;
 }
+/* #endregion background */
 /* #region col */
 .col_1{
     width: calc((100% / 12)*1);
@@ -66,7 +70,7 @@ a:active{
 }
 /* #endregion col */
 
-.accedi{
+.accedi, .register{
     border: none;
     border-radius: 2rem;
     background-color: white;
@@ -81,20 +85,138 @@ button:hover{
 .discord{
     margin-top: 5rem;
 }
-h1{
+h1, .col_8 > h2{
     color: white;
     font-size: 5rem;
 }
 .server{
     font-size: 1.3rem;
     padding-top: 1rem;
+    color: white;
 }
 .year, .month{
     border: none;
     border-radius: 2rem;
-    padding: 0.5rem 1rem;
+    padding: 0.8rem 1.2rem;
     background-color: black;
     color: #7289DA;
     font-size: 1.4rem;
     margin-top: 2rem;
 }
+span{
+    background-color: #7289D9;
+    color: white;
+    font-size: 1rem;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    vertical-align: middle;
+}
+.voice > h2, .do_it{
+    
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.voice > div{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.col_3, .col_3 div{
+    height: 270px;
+    border-radius: 8px;
+    margin-top: 2rem;
+    text-align: center;
+    padding: 1rem 0;
+    color: white;
+}
+.discount{
+    text-align: center ;
+    margin-bottom: 8rem;
+}
+.emoji{
+    background: linear-gradient(142.53deg,#00a295,#26e8f4 98.75%),#3dcda7;
+}
+.profile{
+    background: linear-gradient(321.82deg,#21f2ff,#4181ff 59.22%,#4475ff 98.02%),#7196ff;
+}
+.power{
+   background: linear-gradient(138.46deg,#3e70ff 1.48%,#9a98ff 98.75%),#ff73fa;
+}
+.support{
+    background: linear-gradient(141.85deg,#7e7bff,#ff73fa);
+}
+.dimension{
+    background: linear-gradient(141.48deg,#f837ee 1.35%,#ffcd4b);
+}
+.video{
+    background: linear-gradient(321.73deg,#ffcd4b -1.09%,#ee6315 100.65%);
+}
+
+.benefits{
+    background-color: #4181ff;
+    height: 700px;
+}
+/* #region footer */
+.foot{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #7289D9;
+    margin-top: 3rem;   
+}
+.final{
+    align-self: center;
+}
+
+h3{
+    color:  #7289D9;
+    font-size: 35px;
+    margin-top: 3rem;
+    padding-bottom: 1rem;
+}
+.flag{
+    width: 30px;
+}
+.italy{
+    vertical-align: top;
+    color: white;
+}
+h4{
+    color:  #7289D9;
+    margin-top: 3rem;
+}
+.coda{
+    color: white;
+    padding: 2rem 0;
+}
+
+footer{
+    background-color: #23272A;
+    height: 500px;
+}
+i{
+    color: white;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+.fa-twitter:hover{
+    color:  #00ACED;
+}
+.fa-instagram:hover{
+    color: #FF0068;
+}
+.fa-facebook:hover{
+    color: #1E4799;
+
+}
+.fa-youtube:hover{
+    color: red;
+}
+/* #endregion footer*/
